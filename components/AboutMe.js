@@ -3,7 +3,7 @@ import StatComponent from "./StatComponent";
 
 const AboutMe = () => {
   return (
-    <div className='py-12 w-full max-w-2xl mx-auto text-lg'>
+    <div className='py-20 w-full max-w-2xl mx-auto text-lg'>
       {/* <p className='text-4xl text-center'>ABOUT ME</p> */}
       <AnimatedPageTitle text='about me.' />
 

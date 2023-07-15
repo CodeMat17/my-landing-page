@@ -4,11 +4,17 @@ import { Typewriter } from "react-simple-typewriter";
 
 const HeroTyping = () => {
   return (
-    <h1 className='text-lg opacity-70'>
+    <h1 className='text-2xl opacity-80'>
       I build{" "}
-      <span className='px-1 bg-[#F2AA4C] text-[#101820] rounded'>
+      <span className='px-1 dark:bg-[#F2AA4C] bg-[#101820] text-[#F2AA4C] dark:text-[#101820] rounded'>
         <Typewriter
-          words={[" sleek ", " intuitive ", 'responsive', " dynamic "]}
+          words={[
+            " sleek ",
+            " intuitive ",
+            "responsive",
+            " dynamic ",
+            "user-friendly",
+          ]}
           loop={true}
           cursor
           cursorColor='white'
@@ -18,9 +24,7 @@ const HeroTyping = () => {
           delaySpeed={2500}
         />
       </span>{" "}
-      <span>
-        web solutions to help you or your business grow seamlessly.
-      </span>
+      <span>web solutions to help you or your business grow seamlessly.</span>
     </h1>
   );
 };

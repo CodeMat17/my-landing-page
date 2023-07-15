@@ -31,9 +31,11 @@ const AnimatedNumbers = ({ value }) => {
 
 const StatComponent = () => {
   return (
+    // [#031e39] dark
+    // [#F2AA4C] gold
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 pt-20'>
       <div className='relative flex flex-col justify-center items-center'>
-        <div className='absolute -top-4 rounded-full p-3 animate-pulse bg-[#1c2b3b]'>
+        <div className='absolute -top-4 rounded-full p-3 animate-pulse bg-[#9f6519] dark:bg-[#1c2b3b] '>
           <GiNetworkBars className='text-5xl animate-bounce-fast' />
         </div>
         <h1 className='z-30 text-8xl'>
@@ -43,22 +45,20 @@ const StatComponent = () => {
       </div>
 
       <div className='relative flex flex-col justify-center items-center'>
-        <div className='absolute -top-4 rounded-full p-3 animate-pulse bg-[#1c2b3b]'>
+        <div className='absolute -top-4 rounded-full p-3 animate-pulse bg-[#9f6519] dark:bg-[#1c2b3b]'>
           <LuArrowUpWideNarrow className='text-5xl animate-bounce-mid' />
         </div>
         <h1 className='z-30 text-8xl'>
-          {" "}
           <AnimatedNumbers value={32} />+
         </h1>
         <span>Projects completed</span>
       </div>
 
       <div className='relative flex flex-col justify-center items-center'>
-        <div className='absolute -top-4 rounded-full p-3 animate-pulse bg-[#1c2b3b]'>
+        <div className='absolute -top-4 rounded-full p-3 animate-pulse bg-[#9f6519] dark:bg-[#1c2b3b]'>
           <MdNetworkCheck className='text-5xl animate-bounce-slow' />
         </div>
         <h1 className='z-30 text-8xl'>
-          {" "}
           <AnimatedNumbers value={60} />+
         </h1>
         <span>Satisfied clients</span>

@@ -13,7 +13,7 @@ const Detail = ({ position, company, work }) => {
       <LiIcon reference={ref} />
         <motion.div className='text-lg'
           initial={{ y: 50 }} whileInView={{ y: 0 }}
-        transition={{duration: 0.9, type: 'spring'}}>
+        transition={{duration: 1.5, type: 'spring'}}>
         <h3 className='capitalize font-semibold text-2xl'>{position}</h3>
         <p>{company}</p>
         <p className='font-medium w-full'>{work}</p>
@@ -30,13 +30,13 @@ const Experience = () => {
   });
 
   return (
-    <div className='py-12'>
+    <div className='py-20'>
       <AnimatedPageTitle text='Experience' />
 
-      <div ref={ref} className='w-[75%] mx-auto relative'>
+      <div ref={ref} className='max-w-md mx-auto relative'>
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className='absolute left-9 top-0 w-[4px] h-full bg-gray-700 origin-top'
+          className='absolute left-12 top-0 w-[4px] h-full bg-[#203245] origin-top'
         />
 
         <ul className='w-full flex flex-col items-start justify-between ml-4'>
