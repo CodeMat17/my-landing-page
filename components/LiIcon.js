@@ -21,7 +21,7 @@ const LiIcon = ({ reference }) => {
           cx='75'
           cy='50'
           r='20'
-          className='dark:fill-[#de089e14] fill-[#f2f4f6] stroke-[5px]'
+          className='fill-[#de089eea] stroke-[5px]'
           style={{ pathLength: scrollYProgress }}
         />
         <circle
