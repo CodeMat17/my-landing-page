@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <div className='pb-12 pt-6'>
+    <div className='pb-12'>
       <p className='text-center text-2xl '>
         Are you looking for a professional web developer?
       </p>
@@ -54,7 +54,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className='md:pl-6 lg:pl-20 lg:max-w-xl'>
+        <div className='md:mt-12 md:pl-6 lg:pl-20 lg:max-w-xl'>
           <p className='text-lg opacity-80'>Here is</p>
           <div>
             <h1 className='text-5xl md:text-7xl tracking-widest font-medium py-2 '>

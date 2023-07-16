@@ -23,9 +23,9 @@ const ThemeButton = () => {
       ${resolvedTheme === "dark" ? "transition rotate-[-90deg]" : ""}`}
       onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}>
       {resolvedTheme === "dark" ? (
-        <BiSun className='h-8 w-8 text-orange-300' />
+        <BiSun className='h-8 w-8 text-orange-500' />
       ) : (
-        <HiMoon className='h-8 w-8 text-slate-300' />
+        <HiMoon className='h-8 w-8 text-[#101820]' />
       )}
     </button>
   );

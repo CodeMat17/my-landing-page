@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className='min-h-screen px-4 py-12 dark:bg-[#031e39] bg-[#F2AA4C] dark:text-[#F2AA4C] text-[#031e39]'>
       {/* [#F2AA4C] gold */}
-      {/* [#101820] dark */}
+      {/* [#042647] dark */}
 
       <HeroSection />
       <AboutMe />

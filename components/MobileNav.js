@@ -1,12 +1,14 @@
-'use client '
+"use client ";
 
 import { Menu, Transition } from "@headlessui/react";
-import { HiMenuAlt3 } from 'react-icons/hi'
-import { MdClose } from 'react-icons/md'
 import { Fragment } from "react";
+import { HiMenuAlt3 } from "react-icons/hi";
+import { MdClose } from "react-icons/md";
 
 const MobileNav = () => {
   return (
+    // {/* [#F2AA4C] gold */}
+    // {/* [#101820] dark */}
     <Menu as='div' className='relative inline-block text-left md:hidden'>
       {({ open }) => (
         <>
@@ -15,7 +17,7 @@ const MobileNav = () => {
               className={`p-1 transition duration-200 text-4xl rounded-lg border ${
                 open
                   ? "border-red-900 text-red-600 transition rotate-[-90deg]"
-                  : "border-blue-900 text-[#0870ad] transition"
+                  : "border-[#4d2d02] dark:text-[#F2AA4C] text-[#101820] transition"
               } `}>
               {open ? (
                 <MdClose aria-hidden='true' />
@@ -39,16 +41,20 @@ const MobileNav = () => {
             <Menu.Items
               static
               className='origin-top-right absolute right-0 transition-all duration-500 flex flex-col mt-2 rounded-lg w-56 overflow-hidden shadow-2xl ring-1 ring-black ring-opacity-5 focus:ontline-none'>
-              <div className='p-1 w-full'>
-                <Menu.Item
-                  as='a'
-                  className='ui-active:bg-blue-500 ui-active:text-white ui-not-active:bg-white ui-not-active:text-black'>
-                  {/* <Link
-                  href='/'
-                  className='transition duration-500 p-4 ui-active:bg-blue-500 ui-active:text-white ui-not-active:bg-gray-300 dark:ui-not-active:bg-gray-600 ui-not-active:text-black dark:ui-not-active:text-white shadow-lg'>
-                  HOME
-                </Link> */}
-                  HOME
+              <div className='p-1 shadow-black bg-[#F2AA4C] dark:bg-[#092e54] '>
+                <Menu.Item>
+                  <button
+                    className={`${
+                      open ? "bg-violet-500 text-white" : "text-gray-900"
+                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}>
+                    HOME
+                  </button>
+                </Menu.Item>
+
+                <Menu.Item>
+                  <button className='p-4 text-lg font-semibold tracking-widest bg-[#F2AA4C] dark:bg-[#092e54] text-[#092e54] dark:text-[#F2AA4C] group flex w-full items-center rounded-md'>
+                    HOME
+                  </button>
                 </Menu.Item>
               </div>
               {/* <Menu.Item>
@@ -88,6 +94,6 @@ const MobileNav = () => {
       )}
     </Menu>
   );
-}
+};
 
-export default MobileNav
+export default MobileNav;
