@@ -41,19 +41,35 @@ const MobileNav = () => {
             <Menu.Items
               static
               className='origin-top-right absolute right-0 transition-all duration-500 flex flex-col mt-2 rounded-lg w-56 overflow-hidden shadow-2xl ring-1 ring-black ring-opacity-5 focus:ontline-none'>
-              <div className='p-1 shadow-black bg-[#F2AA4C] dark:bg-[#092e54] '>
+              <div className='transition-all transform duration-700 p-1 shadow-black bg-[#dc9e4c] dark:bg-[#092e54] '>
                 <Menu.Item>
-                  <button
-                    className={`${
-                      open ? "bg-violet-500 text-white" : "text-gray-900"
-                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}>
+                  <button className='transition-all transform duration-700 p-4 text-lg font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
                     HOME
                   </button>
                 </Menu.Item>
-
                 <Menu.Item>
-                  <button className='p-4 text-lg font-semibold tracking-widest bg-[#F2AA4C] dark:bg-[#092e54] text-[#092e54] dark:text-[#F2AA4C] group flex w-full items-center rounded-md'>
-                    HOME
+                  <button className='transition-all transform duration-700 p-4 text-lg font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
+                    ABOUT ME
+                  </button>
+                </Menu.Item>
+                <Menu.Item>
+                  <button className='transition-all transform duration-700 p-4 text-lg font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
+                    SKILLS
+                  </button>
+                </Menu.Item>
+                <Menu.Item>
+                  <button className='transition-all transform duration-700 p-4 text-lg font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
+                    EXPERIENCE
+                  </button>
+                </Menu.Item>
+                <Menu.Item>
+                  <button className='transition-all transform duration-700 p-4 text-lg font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
+                    EDUCATION
+                  </button>
+                </Menu.Item>
+                <Menu.Item>
+                  <button className='transition-all transform duration-700 p-4 text-lg font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
+                    RESUME`
                   </button>
                 </Menu.Item>
               </div>
