@@ -1,9 +1,10 @@
 import NavHeader from "@/components/NavHeader";
-import { Figtree } from "next/font/google";
+import { Figtree, Poiret_One } from "next/font/google";
 import Providers from "./Providers";
 import "./globals.css";
 
 const figtree = Figtree({ subsets: ["latin"] });
+const poiret =  Poiret_One({subsets: ['cyrillic', 'latin'], weight: ['400']})
 
 export const metadata = {
   title: "Matthew | Web Developer",

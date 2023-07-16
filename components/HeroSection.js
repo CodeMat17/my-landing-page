@@ -9,8 +9,8 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <div className='py-12'>
-      <p className='text-center text-xl font-light'>
+    <div className='pb-12 pt-6'>
+      <p className='text-center text-2xl '>
         Are you looking for a professional web developer?
       </p>
       <div className='flex flex-col md:flex-row md:items-center md:justify-around'>
@@ -29,12 +29,33 @@ const HeroSection = () => {
                   <span className='relative inline-flex rounded-full h-3 w-3 '></span>
                 </span>
               </div>
+
+              <div className='absolute top-48 right-8 '>
+                <span className='relative flex h-3 w-3'>
+                  <span className='animate-ping-slow-1 absolute inline-flex h-full w-full rounded-full bg-[#dc7e03] dark:bg-[#4478ad] opacity-75'></span>
+                  <span className='relative inline-flex rounded-full h-3 w-3 '></span>
+                </span>
+              </div>
+
+              <div className='absolute bottom-0 left-0 '>
+                <span className='relative flex h-3 w-3'>
+                  <span className='animate-ping-slow-2 absolute inline-flex h-full w-full rounded-full bg-[#dc7e03] dark:bg-[#4478ad] opacity-75'></span>
+                  <span className='relative inline-flex rounded-full h-3 w-3 '></span>
+                </span>
+              </div>
+
+              <div className='absolute top-12 right-0 '>
+                <span className='relative flex h-3 w-3'>
+                  <span className='animate-ping-slow-3 absolute inline-flex h-full w-full rounded-full bg-[#dc7e03] dark:bg-[#4478ad] opacity-75'></span>
+                  <span className='relative inline-flex rounded-full h-3 w-3 '></span>
+                </span>
+              </div>
             </div>
           </div>
         </div>
 
         <div className='md:pl-6 lg:pl-20 lg:max-w-xl'>
-          <p className='text-xl opacity-70'>Here is</p>
+          <p className='text-lg opacity-80'>Here is</p>
           <div>
             <h1 className='text-5xl md:text-7xl tracking-widest font-medium py-2 '>
               Matthew.
@@ -47,7 +68,7 @@ const HeroSection = () => {
 
             <div className='pt-6'>
               <h1 className='text-lg  w-auto'>
-                <span className='px-5 py-2 rounded-full bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39]'>
+                <span className='font-semibold px-5 py-2 rounded-full bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39]'>
                   CONTACT ME
                 </span>
               </h1>

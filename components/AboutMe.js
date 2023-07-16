@@ -7,10 +7,10 @@ const AboutMe = () => {
       {/* <p className='text-4xl text-center'>ABOUT ME</p> */}
       <AnimatedPageTitle text='about me.' />
 
-      <h1 className='text-2xl font-light opacity-70 tracking-widest'>
+      <h1 className='text-xl font-light opacity-80 tracking-widest'>
         Biography
       </h1>
-      <div className='pt-4 space-y-4'>
+      <div className='pt-4 space-y-4 text-lg'>
         <p>
           I am Mathhew and my code name is Codemat. I am a full stach web
           developer. It gives me joy to create things that live on the internet.
@@ -35,7 +35,7 @@ const AboutMe = () => {
           Strategic Studies, NIPSS, Kuru, Jos, Nigeria.
         </p>
       </div>
-      <h1 className='pt-6 text-2xl font-light opacity-70 tracking-widest'>
+      <h1 className='pt-6 text-xl font-light opacity-80 tracking-widest'>
         Stats
       </h1>
 
