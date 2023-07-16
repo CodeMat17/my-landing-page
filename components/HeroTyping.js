@@ -13,7 +13,7 @@ const HeroTyping = () => {
             " intuitive ",
             "responsive",
             " dynamic ",
-            'custo mised',
+            'customised',
             "user-friendly",
           ]}
           loop={true}

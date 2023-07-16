@@ -12,25 +12,25 @@ const AboutMe = () => {
       </h1>
       <div className='pt-4 space-y-4 text-lg'>
         <p>
-          I am Mathhew and my code name is Codemat. I am a full stach web
+          I am Matthew and my code name is CodeMat. I am a full stack web
           developer. It gives me joy to create things that live on the internet.
           I have passion for creating sleek, intuitive, responsive, dynamic and
           user-friendly digital experiences. I have 8+ experience in software
-          development and ever ready to bring my client&apos;s vision(s) to
+          development and I am ever ready to bring my client&apos;s vision(s) to
           life.
         </p>
         <p>
           I believe in continuous learning to restack my skills and unlearn the
-          old ways of doing things.
+          old ways of doing things considering the fact that teh internet is always new, refreshing and upgrading.
         </p>
         <p>
           I love giving back to the tech ecosystem by mentoring the younger
           developers. I have mentored and facilitated meetups across Africa
           (physically and remotely) for Google Africa via Andela Learning
-          Community, ALC, for 3 seasons.
+          Community, ALC, programmes for 3 seasons.
         </p>
         <p>
-          I am also a member of PSLC 20 (Policy, Strategy and Leadership Course, class
+          I am also a member of PSLC 20, (Policy, Strategy and Leadership Course, class
           20), of the prestigious institute, National Institute For Policy and
           Strategic Studies, NIPSS, Kuru, Jos, Nigeria.
         </p>

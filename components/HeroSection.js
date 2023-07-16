@@ -72,7 +72,7 @@ const HeroSection = () => {
                   CONTACT ME
                 </span>
               </h1>
-              <div className=' pt-4 flex items-center space-x-4'>
+              <div className=' pt-4 flex items-center space-x-6'>
                 <a
                   href='tel:+2348063856120'
                   className='transition-all transform duration-300 p-2 bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39] hover:bg-[#F2AA4C] dark:hover:bg-[#031e39] hover:text-[#031e39] dark:hover:text-[#F2AA4C] hover:scale-150 hover:border hover:border-dashed hover:border-[#6b5230] rounded-full'>
@@ -90,15 +90,7 @@ const HeroSection = () => {
                   className='transition-all transform duration-300 p-2 bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39] hover:bg-[#F2AA4C] dark:hover:bg-[#031e39] hover:text-[#031e39] dark:hover:text-[#F2AA4C] hover:scale-150 hover:border hover:border-dashed hover:border-[#6b5230] rounded-full'>
                   <BsWhatsapp size={25} />
                 </a>
-                <button className='transition-all transform duration-300 p-2 bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39] hover:bg-[#F2AA4C] dark:hover:bg-[#031e39] hover:text-[#031e39] dark:hover:text-[#F2AA4C] hover:scale-150 hover:border hover:border-dashed hover:border-[#6b5230] rounded-full'>
-                  <FaLinkedin size={25} />
-                </button>
-                <button className='transition-all transform duration-300 p-2 bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39] hover:bg-[#F2AA4C] dark:hover:bg-[#031e39] hover:text-[#031e39] dark:hover:text-[#F2AA4C] hover:scale-150 hover:border hover:border-dashed hover:border-[#6b5230] rounded-full'>
-                  <LuTwitter size={25} />
-                </button>
-                <Link href='/dummy.pdf' target='_blank'>
-                  Resume
-                </Link>
+               
               </div>
             </div>
           </div>
