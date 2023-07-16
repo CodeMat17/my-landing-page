@@ -31,7 +31,7 @@ const singleWord = {
 
 const AnimatedPageTitle = ({ text, className }) => {
   return (
-    <div className='w-full mx-auto pt-12 pb-8 flex items-center justify-center text-center overflow-hidden'>
+    <div className='w-full mx-auto p-12 flex items-center justify-center text-center overflow-hidden'>
           <motion.h1 className={`inline-block w-full uppercase tracking-widest text-4xl ${className}`}
               variants={quote}
               initial='initial'

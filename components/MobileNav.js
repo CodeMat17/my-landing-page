@@ -66,7 +66,7 @@ const MobileNav = () => {
                         to='about'
                         spy={true}
                         smooth={true}
-                        offset={-80}
+                        offset={-50}
                         duration={500}
                         onClick={close}>
                         ABOUT
@@ -84,7 +84,7 @@ const MobileNav = () => {
                         to='skills'
                         spy={true}
                         smooth={true}
-                        offset={-80}
+                        offset={-50}
                         duration={500}
                         onClick={close}>
                         SKILLS
@@ -102,7 +102,7 @@ const MobileNav = () => {
                         to='experience'
                         spy={true}
                         smooth={true}
-                        offset={-80}
+                        offset={-50}
                         duration={500}
                         onClick={close}>
                         EXPERIENCE
@@ -120,10 +120,28 @@ const MobileNav = () => {
                         to='education'
                         spy={true}
                         smooth={true}
-                        offset={-80}
+                        offset={-50}
                         duration={500}
                         onClick={close}>
                         EDUCATION
+                      </Link>
+                    </li>
+                  )}
+                </Menu.Item>
+
+                <Menu.Item>
+                  {({ close }) => (
+                    <li
+                      onClick={close}
+                      className='cursor-pointer transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
+                      <Link
+                        to='projects'
+                        spy={true}
+                        smooth={true}
+                        offset={-50}
+                        duration={500}
+                        onClick={close}>
+                        SELECTED PROJECTS
                       </Link>
                     </li>
                   )}

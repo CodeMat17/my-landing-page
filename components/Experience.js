@@ -33,7 +33,7 @@ const Experience = () => {
     <div id='experience' className='py-20'>
       <AnimatedPageTitle text='Experience' />
 
-      <div ref={ref} className='max-w-md mx-auto relative'>
+      <div ref={ref} className='mt-6 max-w-md mx-auto relative'>
         <motion.div
           style={{ scaleY: scrollYProgress }}
           className='absolute left-12 top-0 w-[4px] h-full bg-[#203245] origin-top'

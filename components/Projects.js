@@ -38,7 +38,7 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <div className='py-20'>
+    <div id='projects' className='py-20'>
       <AnimatedPageTitle text='Selected Projects' />
 
       <div className='max-w-6xl mx-auto pt-8 px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-flow-row gap-8 md:gap-4 lg:gap-12'>
