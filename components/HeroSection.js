@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <div className='pb-12'>
+    <div id='hero' className='pb-12'>
       <p className='text-center text-2xl '>
         Are you looking for a professional web developer?
       </p>

@@ -17,7 +17,7 @@ const Skill = ({ name, x, y }) => {
 
 const Skills = () => {
   return (
-    <div className='py-20'>
+    <div id='skills' className='py-20'>
       <AnimatedPageTitle text='Skills' />
       <div className='mx-auto w-full h-96 sm:w-[500px] sm:h-[500px] md:w-[600px] md:h-[600px] relative flex items-center justify-center rounded-full bg-circularLight overflow-hidden'>
         <motion.div className='flex items-center justify-center rounded-full font-semibold bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39] px-4 py-5 shadow-black cursor-pointer transition transform duration-500 hover:scale-125'>

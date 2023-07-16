@@ -30,7 +30,7 @@ const Experience = () => {
   });
 
   return (
-    <div className='py-20'>
+    <div id='experience' className='py-20'>
       <AnimatedPageTitle text='Experience' />
 
       <div ref={ref} className='max-w-md mx-auto relative'>

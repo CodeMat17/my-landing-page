@@ -4,12 +4,13 @@ import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
+import { Link } from "react-scroll";
 
 const MobileNav = () => {
   return (
     // {/* [#F2AA4C] gold */}
     // {/* [#101820] dark */}
-    <Menu as='div' className='relative inline-block text-left md:hidden'>
+    <Menu as='div' className=' relative inline-block text-left md:hidden'>
       {({ open }) => (
         <>
           <div>
@@ -43,29 +44,89 @@ const MobileNav = () => {
               className='origin-top-right absolute right-0 transition-all duration-500 flex flex-col mt-2 rounded-lg w-56 overflow-hidden shadow-2xl ring-1 ring-black ring-opacity-5 focus:ontline-none'>
               <div className='transition-all transform duration-700 p-1 shadow-black bg-[#dc9e4c] dark:bg-[#092e54] '>
                 <Menu.Item>
-                  <button className='transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
-                    HOME
-                  </button>
+                  {({ close }) => (
+                    <li className='cursor-pointer transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
+                      <Link
+                        to='hero'
+                        spy={true}
+                        smooth={true}
+                        offset={-120}
+                        duration={500}
+                        onClick={close}>
+                        HOME
+                      </Link>
+                    </li>
+                  )}
                 </Menu.Item>
+
                 <Menu.Item>
-                  <button className='transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
-                    ABOUT ME
-                  </button>
+                  {({ close }) => (
+                    <li className='cursor-pointer transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
+                      <Link
+                        to='about'
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={500}
+                        onClick={close}>
+                        ABOUT
+                      </Link>
+                    </li>
+                  )}
                 </Menu.Item>
+
                 <Menu.Item>
-                  <button className='transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
-                    SKILLS
-                  </button>
+                  {({ close }) => (
+                    <li
+                      onClick={close}
+                      className='cursor-pointer transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
+                      <Link
+                        to='skills'
+                        spy={true}
+                        smooth={true}
+                        offset={-150}
+                        duration={500}
+                        onClick={close}>
+                        SKILLS
+                      </Link>
+                    </li>
+                  )}
                 </Menu.Item>
+
                 <Menu.Item>
-                  <button className='transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
-                    EXPERIENCE
-                  </button>
+                  {({ close }) => (
+                    <li
+                      onClick={close}
+                      className='cursor-pointer transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
+                      <Link
+                        to='experience'
+                        spy={true}
+                        smooth={true}
+                        offset={-150}
+                        duration={500}
+                        onClick={close}>
+                        EXPERIENCE
+                      </Link>
+                    </li>
+                  )}
                 </Menu.Item>
+
                 <Menu.Item>
-                  <button className='transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
-                    EDUCATION
-                  </button>
+                  {({ close }) => (
+                    <li
+                      onClick={close}
+                      className='cursor-pointer transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
+                      <Link
+                        to='education'
+                        spy={true}
+                        smooth={true}
+                        offset={-150}
+                        duration={500}
+                        onClick={close}>
+                        EDUCATION
+                      </Link>
+                    </li>
+                  )}
                 </Menu.Item>
                 <Menu.Item>
                   <button className='transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
