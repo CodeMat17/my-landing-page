@@ -21,13 +21,13 @@ const AboutMe = () => {
         </p>
         <p>
           I believe in continuous learning to restack my skills and unlearn the
-          old ways of doing things considering the fact that teh internet is always new, refreshing and upgrading.
+          old ways of doing things considering the fact that the internet is always new, refreshing and constantly upgrading.
         </p>
         <p>
           I love giving back to the tech ecosystem by mentoring the younger
           developers. I have mentored and facilitated meetups across Africa
           (physically and remotely) for Google Africa via Andela Learning
-          Community, ALC, programmes for 3 seasons.
+          Community, ALC, programme for 3 seasons.
         </p>
         <p>
           I am also a member of PSLC 20, (Policy, Strategy and Leadership Course, class

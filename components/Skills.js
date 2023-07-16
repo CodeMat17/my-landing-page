@@ -31,7 +31,7 @@ const Skills = () => {
         <Skill name='TailwindCss' x='-12vw' y='130px' />
         <Skill name='Vercel' x='10vw' y='-96px' />
         <Skill name='MongoDB' x='-16vw' y='5px' />
-        <Skill name='Framer Motion' x='2vw' y='170px' />
+        <Skill name='Framer Motion' x='13vw' y='100px' />
       </div>
     </div>
   );
