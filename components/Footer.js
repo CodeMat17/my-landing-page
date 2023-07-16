@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='pl-2 flex items-center justify-start'>
           <LogoComponent />
         </div>
-        <div className='px-6'>
+        <div className='px-6 pt-6 sm:pt-0'>
           <p className='text-2xl capitalize'>Follow Me</p>
           <div className=' pt-4 flex items-center space-x-4'>
             <Link
