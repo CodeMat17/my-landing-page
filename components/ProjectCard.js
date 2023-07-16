@@ -17,7 +17,7 @@ const ProjectCard = ({ image, alt, title, desc, link }) => {
 
   return (
     <div className='relative '>
-      <div className=' border bg-white bg-opacity-10 transition transform duration-500 hover:scale-110 border-[#d99a47] dark:border-[#1d3042] rounded-lg overflow-hidden'>
+      <div className='shadow-2xl border bg-white bg-opacity-10 transition transform duration-500 hover:scale-110 border-[#d99a47] dark:border-[#1d3042] rounded-lg overflow-hidden'>
         <div className='relative w-full h-[180px]'>
           <Image fill alt={alt} src={image} />
         </div>

@@ -78,7 +78,6 @@ const MobileNav = () => {
                 <Menu.Item>
                   {({ close }) => (
                     <li
-                      onClick={close}
                       className='cursor-pointer transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
                       <Link
                         to='skills'
@@ -96,7 +95,6 @@ const MobileNav = () => {
                 <Menu.Item>
                   {({ close }) => (
                     <li
-                      onClick={close}
                       className='cursor-pointer transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
                       <Link
                         to='experience'
@@ -114,7 +112,7 @@ const MobileNav = () => {
                 <Menu.Item>
                   {({ close }) => (
                     <li
-                      onClick={close}
+                  
                       className='cursor-pointer transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
                       <Link
                         to='education'
@@ -131,8 +129,7 @@ const MobileNav = () => {
 
                 <Menu.Item>
                   {({ close }) => (
-                    <li
-                      onClick={close}
+                    <li                 
                       className='cursor-pointer transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
                       <Link
                         to='projects'
@@ -141,7 +138,7 @@ const MobileNav = () => {
                         offset={-50}
                         duration={500}
                         onClick={close}>
-                        SELECTED PROJECTS
+                      PROJECTS
                       </Link>
                     </li>
                   )}
