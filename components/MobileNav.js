@@ -50,7 +50,7 @@ const MobileNav = () => {
                         to='hero'
                         spy={true}
                         smooth={true}
-                        offset={-120}
+                        offset={-150}
                         duration={500}
                         onClick={close}>
                         HOME
@@ -66,7 +66,7 @@ const MobileNav = () => {
                         to='about'
                         spy={true}
                         smooth={true}
-                        offset={-100}
+                        offset={-80}
                         duration={500}
                         onClick={close}>
                         ABOUT
@@ -84,7 +84,7 @@ const MobileNav = () => {
                         to='skills'
                         spy={true}
                         smooth={true}
-                        offset={-150}
+                        offset={-80}
                         duration={500}
                         onClick={close}>
                         SKILLS
@@ -102,7 +102,7 @@ const MobileNav = () => {
                         to='experience'
                         spy={true}
                         smooth={true}
-                        offset={-150}
+                        offset={-80}
                         duration={500}
                         onClick={close}>
                         EXPERIENCE
@@ -120,7 +120,7 @@ const MobileNav = () => {
                         to='education'
                         spy={true}
                         smooth={true}
-                        offset={-150}
+                        offset={-80}
                         duration={500}
                         onClick={close}>
                         EDUCATION
