@@ -35,7 +35,7 @@ const AnimatedPageTitle = ({ text, className }) => {
           <motion.h1 className={`inline-block w-full uppercase tracking-widest text-4xl ${className}`}
               variants={quote}
               initial='initial'
-              animate='animate'
+              whileInView='animate'
           >
         {text.split(" ").map((word, index) => (
             <motion.span key={index} className='inline-block'
