@@ -143,11 +143,11 @@ const MobileNav = () => {
                     </li>
                   )}
                 </Menu.Item>
-                <Menu.Item>
+                {/* <Menu.Item>
                   <button className='transition-all transform duration-700 p-4 text-xl font-semibold tracking-widest text-[#092e54] dark:text-[#F2AA4C] hover:bg-[#092e544a] dark:hover:bg-[#b7894c56] hover:text-white dark:hover:text-white  group flex w-full items-center rounded-lg'>
                     RESUME`
                   </button>
-                </Menu.Item>
+                </Menu.Item> */}
               </div>
               {/* <Menu.Item>
                 <Link

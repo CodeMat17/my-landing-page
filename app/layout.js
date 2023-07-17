@@ -4,12 +4,32 @@ import Providers from "./Providers";
 import "./globals.css";
 
 const figtree = Figtree({ subsets: ["latin"] });
-const poiret =  Poiret_One({subsets: ['cyrillic', 'latin'], weight: ['400']})
+const poiret = Poiret_One({ subsets: ["cyrillic", "latin"], weight: ["400"] });
 
 export const metadata = {
-  title: "Matthew | Web Developer",
-  description:
-    "Chukwu Matthew is a full stack software developer working with modern tools like React, Next.js, tailwindcss, Supabase, etc",
+  openGraph: {
+    title: "Matthew Chukwu | Web Developer",
+    description:
+      "Matthew Chukwu is a full stack software developer working with modern tools like React, Next.js, tailwindcss, Supabase, etc",
+    url: "https://www.matthewchukwu.com.ng/",
+    siteName: "My portfolio website",
+    images: [
+      {
+        url: "https://res.cloudinary.com/mctony17/image/upload/v1689562761/Soft-lutions/Seo/dev.png",
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "https://res.cloudinary.com/mctony17/image/upload/v1689562761/Soft-lutions/Seo/dev.png",
+        width: 1800,
+        height: 1600,
+        alt: "My custom alt",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+    authors: ["Matthew Chukwu"],
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -20,14 +40,12 @@ export default function RootLayout({ children }) {
       style={{ colorScheme: "light" }}
       suppressHydrationWarning>
       <body>
-    
-          <main className={figtree.className}>
-            <Providers>
-              <NavHeader />
-              {children}
-            </Providers>
-          </main>
-   
+        <main className={figtree.className}>
+          <Providers>
+            <NavHeader />
+            {children}
+          </Providers>
+        </main>
       </body>
     </html>
   );
