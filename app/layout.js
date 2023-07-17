@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Matthew Chukwu | Web Developer",
     description:
-      "Matthew Chukwu is a full stack software developer working with modern tools like React, Next.js, tailwindcss, Supabase, etc",
+      "Matthew Chukwu is a full stack developer working with modern tools like React, Next.js, tailwindcss, Supabase, etc",
     url: "https://www.matthewchukwu.com.ng/",
     siteName: "My portfolio website",
     images: [
