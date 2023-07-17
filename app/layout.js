@@ -11,8 +11,7 @@ export const metadata = {
   description:
     "Matthew Chukwu is a full stack developer working with modern tools like React, Next.js, tailwindcss, Supabase, etc",
   verification: {
-    google:
-      "_--Wmm-7tckulPdcx_AGlKFQuOCJWM73xEWilEPIaIw",
+    google: "FUEOtzbOq6CDoNsSr6EdGUHNTvhV9HM-S0r_rIyCNCw",
   },
   openGraph: {
     title: "Matthew Chukwu | Web Developer",
