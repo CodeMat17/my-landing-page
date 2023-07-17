@@ -31,7 +31,7 @@ const projectData = [
     title: "COOP ADVANCE",
     alt: "coop advance",
     image: "/project-4.webp",
-    desc: "This is a cooperative loan advancement app.",
+    desc: "This is a cooperative society loan advancement app.",
     link: "#",
   },
 ];
