@@ -12,13 +12,13 @@ export const metadata = {
     "Matthew Chukwu is a full stack developer working with modern tools like React, Next.js, tailwindcss, Supabase, etc",
   verification: {
     google:
-      "google-site-verification=_--Wmm-7tckulPdcx_AGlKFQuOCJWM73xEWilEPIaIw",
+      "_--Wmm-7tckulPdcx_AGlKFQuOCJWM73xEWilEPIaIw",
   },
   openGraph: {
     title: "Matthew Chukwu | Web Developer",
     description:
       "Matthew Chukwu is a full stack developer working with modern tools like React, Next.js, tailwindcss, Supabase, etc",
-    url: "https://www.matthewchukwu.com.ng/",   
+    url: "https://www.matthewchukwu.com.ng/",
     // siteName: "My portfolio website",
     images: [
       {
