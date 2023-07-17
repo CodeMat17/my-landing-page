@@ -11,17 +11,17 @@ const Detail = ({ type, time, place, info }) => {
   return (
     <li
       ref={ref}
-      className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
+      className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between'>
       <LiIcon reference={ref} />
       <motion.div
-        className='text-lg'
+        className=''
         initial={{ y: 50 }}
         whileInView={{ y: 0 }}
         transition={{ duration: 0.9, type: "spring" }}>
         <h3 className='capitalize font-semibold text-2xl'>{type}</h3>
-        <p>{place}</p>
-        <p>{time}</p>
-        <p className='font-medium w-full'>{info}</p>
+        <p className='font-medium w-full text-xl'>{info}</p>
+        <p className='text-sm'>{place}</p>
+        <p className='text-sm'>{time}</p>
       </motion.div>
     </li>
   );
@@ -46,28 +46,34 @@ const Education = () => {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4'>
           <Detail
-            type='Facilitator'
-            place='Google Africa'
-            time='Work'
-            info='2008'
+            type='B. Tech'
+            info='Physics Electronics'
+            place='Nnamdi Azikiwe University, Awka, Nigeria'
+            time='2005'
           />
           <Detail
-            type='Facilitator'
-            place='Google Africa'
-            time='Work'
-            info='2008'
+            type='PSLC 20'
+            info='Policy Strategy & Leadership Course'
+            place='National Institute For Policy & Strategic Studies, Kuru, Jos.'
+            time='2015'
           />
           <Detail
-            type='Facilitator'
-            place='Google Africa'
-            time='Work'
-            info='2008'
+            type='Strategies For Revenue Generation'
+            info='Class 2014'
+            place='Administrative Staff College of Nigeria, ASCON, Badagry.'
+            time='2014'
           />
           <Detail
-            type='Facilitator'
-            place='Google Africa'
-            time='Work'
-            info='2008'
+            type='Project Management'
+            info='MCARAKAN Resource Limited'
+            place='Enugu'
+            time='2011'
+          />
+          <Detail
+            type='ETC'
+            info=''
+            place=''
+            time=''
           />
         </ul>
       </div>

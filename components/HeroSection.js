@@ -61,7 +61,7 @@ const HeroSection = () => {
               Matthew.
             </h1>
             <p className='text-4xl font-light pb-2'>
-              I am a freelance full stack React developer.
+              I am a freelance full stack (React) developer.
             </p>
 
             <HeroTyping />
