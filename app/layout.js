@@ -12,6 +12,10 @@ export const metadata = {
     description:
       "Matthew Chukwu is a full stack developer working with modern tools like React, Next.js, tailwindcss, Supabase, etc",
     url: "https://www.matthewchukwu.com.ng/",
+    verification: {
+      google:
+        "google-site-verification=_--Wmm-7tckulPdcx_AGlKFQuOCJWM73xEWilEPIaIw",
+    },
     siteName: "My portfolio website",
     images: [
       {
