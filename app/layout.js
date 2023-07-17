@@ -7,16 +7,16 @@ const figtree = Figtree({ subsets: ["latin"] });
 const poiret = Poiret_One({ subsets: ["cyrillic", "latin"], weight: ["400"] });
 
 export const metadata = {
-  title: "Matthew Chukwu | Web Developer",
+  title: "Matthew - CodeMat | Web Developer",
   description:
-    "Matthew Chukwu is a full stack developer working with modern tools like React, Next.js, tailwindcss, Supabase, etc",
+    "Matthew is a full stack developer working with modern tools like React, Next.js, tailwindcss, Supabase, etc",
   verification: {
     google: "FUEOtzbOq6CDoNsSr6EdGUHNTvhV9HM-S0r_rIyCNCw",
   },
   openGraph: {
-    title: "Matthew Chukwu | Web Developer",
+    title: "Matthew - CodeMat | Web Developer",
     description:
-      "Matthew Chukwu is a full stack developer working with modern tools like React, Next.js, tailwindcss, Supabase, etc",
+      "Matthew is a full stack developer working with modern tools like React, Next.js, tailwindcss, Supabase, etc",
     url: "https://www.matthewchukwu.com.ng/",
     // siteName: "My portfolio website",
     images: [
