@@ -18,7 +18,7 @@ const HeroSection = () => {
           </span>
           <div className='absolute -top-4'>
             <div className='relative w-[360px] h-[300px] aspect-video'>
-              <Image alt='dev image' fill src='/dev.webp' />
+              <Image alt='dev image' priority fill src='/dev.webp' />
 
               <div className='absolute top-0 left-8 '>
                 <span className='relative flex h-3 w-3'>
