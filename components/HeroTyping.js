@@ -9,8 +9,8 @@ const HeroTyping = () => {
       <span className='px-1 dark:bg-[#F2AA4C] bg-[#101820] text-[#F2AA4C] dark:text-[#101820] rounded'>
         <Typewriter
           words={[
+            " fast ",
             " sleek ",
-            " intuitive ",
             "responsive",
             " dynamic ",
             'customised',
