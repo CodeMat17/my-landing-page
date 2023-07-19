@@ -42,17 +42,13 @@ const ProjectCard = ({ image, alt, title, desc, link }) => {
                 </button>
               </>
             ) : (
-              <a href={link} target='_blank'>
+              <a aria-label={title} href={link} target='_blank'>
                 <GiClick size={25} />
               </a>
             )}
           </span>
         </span>
       </div>
-      {/* <span className='relative flex h-48 w-48'>
-        <span className='animate-ping-slow absolute inline-flex h-full w-full rounded-full bg-[#304d6a] opacity-75'></span>
-        <span className='relative inline-flex rounded-full h-48 w-48 '></span>
-      </span> */}
     </div>
   );
 };
