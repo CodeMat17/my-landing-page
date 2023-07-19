@@ -1,4 +1,5 @@
 import NavHeader from "@/components/NavHeader";
+import { Analytics } from "@vercel/analytics/react";
 import { Figtree, Poiret_One } from "next/font/google";
 import Providers from "./Providers";
 import "./globals.css";
@@ -54,6 +55,7 @@ export default function RootLayout({ children }) {
           <Providers>
             <NavHeader />
             {children}
+            <Analytics />
           </Providers>
         </main>
       </body>

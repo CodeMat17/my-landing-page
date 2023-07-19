@@ -1,8 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
 import { BsWhatsapp } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
-import { LuTwitter } from "react-icons/lu";
 import { MdOutlineCall } from "react-icons/md";
 import { TbMailCheck } from "react-icons/tb";
 import HeroTyping from "./HeroTyping";
@@ -21,7 +18,7 @@ const HeroSection = () => {
           </span>
           <div className='absolute -top-4'>
             <div className='relative w-[360px] h-[300px] aspect-video'>
-              <Image alt='dev image' fill src='/dev.webp'  />
+              <Image alt='dev image' fill src='/dev.webp' />
 
               <div className='absolute top-0 left-8 '>
                 <span className='relative flex h-3 w-3'>
