@@ -15,14 +15,14 @@ const Footer = () => {
           <div className=' pt-4 flex items-center space-x-4'>
             <Link
               href='https://twitter.com/matt_chuks'
-              target='_blank'
+              target='_blank' aria-label='follow on twitter'
               className='transition-all transform duration-300 p-2 bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39] hover:bg-[#F2AA4C] dark:hover:bg-[#031e39] hover:text-[#031e39] dark:hover:text-[#F2AA4C] hover:scale-150 hover:border hover:border-dashed hover:border-[#6b5230] rounded-full'>
               <LuTwitter size={25} />
             </Link>
 
             <Link
               href='https://www.linkedin.com/in/matthew-chukwu-48851083'
-              target='_blank'
+              target='_blank' aria-label='follow on linkedin'
               className='transition-all transform duration-300 p-2 bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39] hover:bg-[#F2AA4C] dark:hover:bg-[#031e39] hover:text-[#031e39] dark:hover:text-[#F2AA4C] hover:scale-150 hover:border hover:border-dashed hover:border-[#6b5230] rounded-full'>
               <FaLinkedin size={25} />
             </Link>

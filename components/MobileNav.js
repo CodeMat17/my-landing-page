@@ -14,7 +14,7 @@ const MobileNav = () => {
       {({ open }) => (
         <>
           <div>
-            <Menu.Button
+            <Menu.Button aria-label='toggle mobile menu'
               className={`p-1 transition duration-200 text-4xl rounded-lg border ${
                 open
                   ? "border-red-900 text-red-600 transition rotate-[-90deg]"

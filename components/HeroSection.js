@@ -20,8 +20,8 @@ const HeroSection = () => {
             <span className='relative inline-flex rounded-full h-48 w-48 '></span>
           </span>
           <div className='absolute -top-4'>
-            <div className='relative w-full h-[300px] aspect-square'>
-              <Image alt='dev image' fill src='/dev.webp' />
+            <div className='relative w-[360px] h-[300px] aspect-video'>
+              <Image alt='dev image' fill src='/dev.webp'  />
 
               <div className='absolute top-0 left-8 '>
                 <span className='relative flex h-3 w-3'>
@@ -74,23 +74,25 @@ const HeroSection = () => {
               </h1>
               <div className=' pt-4 flex items-center space-x-6'>
                 <a
+                  aria-label='call'
                   href='tel:+2348063856120'
                   className='transition-all transform duration-300 p-2 bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39] hover:bg-[#F2AA4C] dark:hover:bg-[#031e39] hover:text-[#031e39] dark:hover:text-[#F2AA4C] hover:scale-150 hover:border hover:border-dashed hover:border-[#6b5230] rounded-full'>
                   <MdOutlineCall size={25} />
                 </a>
 
                 <a
+                  aria-label='send mail'
                   href='mailto:codemat.biz@gmail.com'
                   className='transition-all transform duration-300 p-2 bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39] hover:bg-[#F2AA4C] dark:hover:bg-[#031e39] hover:text-[#031e39] dark:hover:text-[#F2AA4C] hover:scale-150 hover:border hover:border-dashed hover:border-[#6b5230] rounded-full'>
                   <TbMailCheck size={25} />
                 </a>
                 <a
+                  aria-label='send whatsApp message'
                   href='https://wa.me/2348063856120'
                   target='_blank'
                   className='transition-all transform duration-300 p-2 bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39] hover:bg-[#F2AA4C] dark:hover:bg-[#031e39] hover:text-[#031e39] dark:hover:text-[#F2AA4C] hover:scale-150 hover:border hover:border-dashed hover:border-[#6b5230] rounded-full'>
                   <BsWhatsapp size={25} />
                 </a>
-               
               </div>
             </div>
           </div>

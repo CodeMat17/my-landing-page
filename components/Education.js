@@ -18,7 +18,7 @@ const Detail = ({ type, time, place, info }) => {
         initial={{ y: 50 }}
         whileInView={{ y: 0 }}
         transition={{ duration: 0.9, type: "spring" }}>
-        <h3 className='capitalize font-semibold text-2xl'>{type}</h3>
+        <h2 className='capitalize font-semibold text-2xl'>{type}</h2>
         <p className='font-medium w-full text-xl'>{info}</p>
         <p className='text-sm'>{place}</p>
         <p className='text-sm'>{time}</p>

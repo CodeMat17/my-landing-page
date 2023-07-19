@@ -37,7 +37,7 @@ const ProjectCard = ({ image, alt, title, desc, link }) => {
           <span className='relative inline-flex rounded-full py-2 transition-all transform duration-300 hover:bg-[#dd7e02] dark:hover:bg-[#012140]'>
             {link === "#" ? (
               <>
-                <button onClick={openWarning}>
+                <button aria-label='view project' onClick={openWarning}>
                   <GiClick size={25} />
                 </button>
               </>

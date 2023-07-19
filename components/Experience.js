@@ -14,7 +14,7 @@ const Detail = ({ position, company, work }) => {
         <motion.div className='text-lg'
           initial={{ y: 60 }} whileInView={{ y: 0 }}
         transition={{duration: 1.5, type: 'spring'}}>
-        <h3 className='capitalize font-semibold text-2xl'>{position}</h3>
+        <h2 className='capitalize font-semibold text-2xl'>{position}</h2>
         <p>{company}</p>
         <p className='font-medium w-full'>{work}</p>
       </motion.div>
