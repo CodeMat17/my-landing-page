@@ -4,6 +4,14 @@ import ProjectCard from "./ProjectCard";
 const projectData = [
   {
     id: 1,
+    title: "FOOD DELIVERY APP",
+    alt: "food delivery",
+    image: "/food-delivery.webp",
+    desc: "This is a food delivery app.",
+    link: "https://food-delivery-ng.vercel.app",
+  },
+  {
+    id: 2,
     title: "KEN-SNAP STUDIO",
     alt: "gallery img",
     image: "/project-1-1.webp",
@@ -11,7 +19,7 @@ const projectData = [
     link: "https://gallery-demo-app.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "HOODIES eSHOP",
     alt: "Buy here img",
     image: "/project-2-2.webp",
@@ -19,7 +27,7 @@ const projectData = [
     link: "https://hoodies-eshop.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "HULU CLONE",
     alt: "hulu clone img",
     image: "/project-3.webp",
@@ -27,7 +35,7 @@ const projectData = [
     link: "https://hulu-clone-demoapp.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "COOP ADVANCE",
     alt: "coop advance",
     image: "/project-4.webp",
