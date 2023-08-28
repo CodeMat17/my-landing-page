@@ -13,7 +13,7 @@ const AboutMe = () => {
       <div className='pt-4 space-y-4 text-lg'>
         <p>
           I am Matthew and my code name is CodeMat. I am a full stack web
-          developer (Mobile Web Specilaist, MWS). It gives me joy to create things that live on the internet.
+          developer (Mobile Web Specialist, MWS). It gives me joy to create things that live on the internet.
           I have passion for creating sleek, intuitive, responsive, dynamic and
           user-friendly digital experiences. I have 8+ experience in software
           development and I am ever ready to bring my client&apos;s vision(s) to
@@ -30,8 +30,7 @@ const AboutMe = () => {
           Community, ALC, programme for 3 seasons.
         </p>
         <p>
-          I am also a member of PSLC 20, (Policy, Strategy and Leadership Course, class
-          20), of the prestigious institute, National Institute For Policy and
+          I am also a class 20 member of Policy, Strategy and Leadership Course, (PSLC 20) of the prestigious institute, National Institute For Policy and
           Strategic Studies, NIPSS, Kuru, Jos, Nigeria.
         </p>
       </div>
