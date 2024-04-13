@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <div id='hero' className='pb-12'>
       <p className='text-center text-2xl '>
-        Are you looking for a professional web developer?
+        Are you looking for a professional software developer?
       </p>
       <div className='flex flex-col md:flex-row md:items-center md:justify-around'>
         <div className='relative my-12 py-8 w-full h-full flex flex-col justify-center items-center md:order-last md:max-w-md'>
@@ -58,7 +58,7 @@ const HeroSection = () => {
               Matthew.
             </h1>
             <p className='text-4xl font-light pb-2'>
-              I am a freelance full stack (React) developer.
+              I am a freelance <strong>AI Assistant Developer</strong> and a <strong>full stack (React/Next.js) developer</strong>.
             </p>
 
             <HeroTyping />
@@ -79,7 +79,7 @@ const HeroSection = () => {
 
                 <a
                   aria-label='send mail'
-                  href='mailto:codemat.biz@gmail.com'
+                  href='mailto:ask@soft-lutions.com.ng'
                   className='transition-all transform duration-300 p-2 bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39] hover:bg-[#F2AA4C] dark:hover:bg-[#031e39] hover:text-[#031e39] dark:hover:text-[#F2AA4C] hover:scale-150 hover:border hover:border-dashed hover:border-[#6b5230] rounded-full'>
                   <TbMailCheck size={25} />
                 </a>

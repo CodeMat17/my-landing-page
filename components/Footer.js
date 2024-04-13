@@ -14,15 +14,17 @@ const Footer = () => {
           <p className='text-2xl capitalize'>Follow Me</p>
           <div className=' pt-4 flex items-center space-x-4'>
             <Link
-              href='https://twitter.com/matt_chuks'
-              target='_blank' aria-label='follow on twitter'
+              href='https://twitter.com/codeMat_'
+              target='_blank'
+              aria-label='follow on twitter'
               className='transition-all transform duration-300 p-2 bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39] hover:bg-[#F2AA4C] dark:hover:bg-[#031e39] hover:text-[#031e39] dark:hover:text-[#F2AA4C] hover:scale-150 hover:border hover:border-dashed hover:border-[#6b5230] rounded-full'>
               <LuTwitter size={25} />
             </Link>
 
             <Link
               href='https://www.linkedin.com/in/matthew-chukwu-48851083'
-              target='_blank' aria-label='follow on linkedin'
+              target='_blank'
+              aria-label='follow on linkedin'
               className='transition-all transform duration-300 p-2 bg-[#031e39] dark:bg-[#F2AA4C] text-[#F2AA4C] dark:text-[#031e39] hover:bg-[#F2AA4C] dark:hover:bg-[#031e39] hover:text-[#031e39] dark:hover:text-[#F2AA4C] hover:scale-150 hover:border hover:border-dashed hover:border-[#6b5230] rounded-full'>
               <FaLinkedin size={25} />
             </Link>
@@ -33,7 +35,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='text-center py-2 text-white bg-slate-900'>
-        codeMat 2023.
+        &copy; codeMat 2024.
       </div>
     </div>
   );

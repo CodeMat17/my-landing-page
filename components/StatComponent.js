@@ -39,7 +39,7 @@ const StatComponent = () => {
           <GiNetworkBars className='text-5xl animate-bounce-fast' />
         </div>
         <h1 className='z-30 text-8xl'>
-          <AnimatedNumbers value={8} />+
+          <AnimatedNumbers value={9} />+
         </h1>
         <span>Years of experience</span>
       </div>

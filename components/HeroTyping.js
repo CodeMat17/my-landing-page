@@ -9,12 +9,13 @@ const HeroTyping = () => {
       <span className='px-1 dark:bg-[#F2AA4C] bg-[#101820] text-[#F2AA4C] dark:text-[#101820] rounded'>
         <Typewriter
           words={[
-            " fast ",
-            " sleek ",
-            "responsive",
-            " dynamic ",
-            'customised',
-            "user-friendly",
+            " AI Assistant",
+            " fast web",
+            " sleek web",
+            "responsive web",
+            " dynamic web",
+            "customised web",
+            "user-friendly web",
           ]}
           loop={true}
           cursor
@@ -25,7 +26,7 @@ const HeroTyping = () => {
           delaySpeed={2500}
         />
       </span>{" "}
-      <span>web solutions to help you or your business grow seamlessly.</span>
+      <span>solutions to help you or your business grow seamlessly.</span>
     </h1>
   );
 };

@@ -26,8 +26,10 @@ const Skills = () => {
 
         <Skill name='React' x='-10vw' y='-60px' />
         <Skill name='Next.js' x='-15vw' y='-130px' />
+        <Skill name='Github' x='16vw' y='-55px' />
         <Skill name='Supabase' x='16vw' y='20px' />
-        <Skill name='Github' x='2vw' y='-170px' />
+        <Skill name='Openai' x='2vw' y='-170px' />
+        <Skill name='Langchain' x='-12vw' y='75px' />
         <Skill name='TailwindCss' x='-12vw' y='130px' />
         <Skill name='Vercel' x='10vw' y='-96px' />
         <Skill name='MongoDB' x='-16vw' y='5px' />

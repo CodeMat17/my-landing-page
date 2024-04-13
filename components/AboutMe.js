@@ -12,10 +12,9 @@ const AboutMe = () => {
       </h1>
       <div className='pt-4 space-y-4 text-lg'>
         <p>
-          I am Matthew and my code name is CodeMat. I am a full stack web
-          developer (Mobile Web Specialist, MWS). It gives me joy to create things that live on the internet.
+          I am Matthew and my code name is CodeMat. I am an <strong>AI Assistant developer</strong> and as well, <strong>a full stack web developer</strong> (Mobile Web Specialist, MWS). It gives me joy to create things that live on the internet.
           I have passion for creating sleek, intuitive, responsive, dynamic and
-          user-friendly digital experiences. I have 8+ experience in software
+          user-friendly digital experiences. I have 9+ experience in software
           development and I am ever ready to bring my client&apos;s vision(s) to
           life.
         </p>
